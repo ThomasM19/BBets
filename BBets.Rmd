@@ -56,7 +56,7 @@ saveanswer[j]<-savebank
 }
 ```
 ```{r}
-hist(saveanswer)
+hist(saveanswer, main= "Brownlow Winnings, \n 4.2:1 Ratio, Class size = 35", xlab= "winnings(US$)")
 ssanswer<-sort(saveanswer)
 print(ssanswer[25])
 print(ssanswer[975])
@@ -87,7 +87,7 @@ saveanswer[j]<-savebank
 }
 ```
 ```{r}
-hist(saveanswer)
+hist(saveanswer, main="Brownlow Winnings,\n 2:1 Ratio, class size=29", xlab= "winnings(US$)")
 ssanswer<-sort(saveanswer)
 print(ssanswer[25])
 print(ssanswer[975])
@@ -120,7 +120,7 @@ saveanswer[j]<-savebank
 }
 ```
 ```{r}
-hist(saveanswer)
+hist(saveanswer, main= "Brownlow Winnings,\n 2:1 Ratio, Class size = 35", xlab= "winnings(US$)")
 ssanswer<-sort(saveanswer)
 print(ssanswer[25])
 print(ssanswer[975])
